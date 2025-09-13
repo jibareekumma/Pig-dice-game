@@ -24,5 +24,9 @@ It features a clean UI and interactive gameplay where players compete to reach 1
     •    SCSS For Faster use of CSS
     •    JavaScript (ES6+) for game logic.
 
+AUTHOR
+linkedIn: https://www.linkedin.com/in/solomon-ekumma-976255371
+GitHub  : https://github.com/jibareekumma
+X       : https://x.com/jibare_ekumma
 📌 Inspiration
 Consistency, and learning, fully rewritten with my own logic, structure, and improvements.
