@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,  initial-scale = 1.0" />
+    <meta name="author" content="Jibare-Ekumma" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/my personal logo 2.jpg" type="images/jpg" />
+    <title>Pig Dice Game</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div id="main-container">
+        <!-- Section container for first player -->
+        <section class="player active-player" id="player0">
+          <img
+            src="images/player0.jpg"
+            alt="Player-profile"
+            loading="lazy"
+            class="player-profile"
+            id="player-profile0"
+          />
+          <div class="contents">
+            <div class="name-container">
+              <h2 class="name-player0">Player 1</h2>
+
+              <h3 class="score" id="score0">0</h3>
+            </div>
+            <div class="current-box" id="current-box0">
+              <h3>Current</h3>
+              <h4 class="current-score" id="current-score0">12</h4>
+            </div>
+          </div>
+        </section>
+
+        <!-- section container for second player -->
+        <section class="player" id="player1">
+          <img
+            src="images/player1.jpg"
+            alt="Player-profile"
+            loading="lazy"
+            class="player-profile"
+            id="player-profile1"
+          />
+          <div class="contents">
+            <div class="name-container">
+              <h2 class="name-player1">Player 2</h2>
+
+              <h3 class="score" id="score1">0</h3>
+            </div>
+            <div class="current-box" id="current-box1">
+              <h3>Current</h3>
+              <h4 class="current-score" id="current-score1">26</h4>
+            </div>
+          </div>
+        </section>
+
+        <!-- Games logic buttons  -->
+      </div>
+
+      <!-- Game buttons to create games logic -->
+      <!-- button to restart the game  -->
+      <button id="new-game">
+        <span class="emoji">🔃</span>
+        NEW GAME
+      </button>
+
+      <img
+        src="images/dice-3.png"
+        alt="dice-image"
+        loading="lazy"
+        id="dice-image"
+      />
+      <!-- buttom buttons container -->
+      <div class="game-btns">
+        <!-- button to roll the dice -->
+        <button class="roll-dice">
+          <span class="emoji">🎲</span>
+          ROLL DICE
+        </button>
+        <!-- button to hold the score -->
+        <button class="hold-game">
+          <span class="emoji">⏏️</span>
+          HOLD
+        </button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="logic.js"></script>
+  </body>
+</html>
